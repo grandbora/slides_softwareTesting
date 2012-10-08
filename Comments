@@ -1,0 +1,26 @@
+Static Testing
+		codereview : f4h
+		inspection : sf2
+		walkthrough : youtube api videos /geoff stearns 
+
+Fancy words list
+
+	smoke : origin from electrical engineering, is smoke coming from cpu?
+			smoke test fails are critical, easy to fix
+			if smoke test fails no need to test further
+
+	code coverage : gmob experience with removing
+
+	ci : after every commit
+		 regularly
+
+
+	show code examples for each of them
+
+Even more
+
+	fixture : the data necessary to run the test
+
+	show code examples for each of them
+
+	
