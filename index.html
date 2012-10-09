@@ -97,6 +97,7 @@
 		<ul>
 			<li class="delayed">Smoke</li>
 			<li class="delayed">Regression</li>
+			<li class="delayed">Destructive</li>
 		</ul>		
 	</section>
 </section>
@@ -119,17 +120,18 @@
 			</li>
 			<li class="delayed">Code coverage</li>
 		</ul>
+		<pre class="delayed">// TODO: write code here.</pre>
 	</section>
 
 	<section class="slide">
-		<h2>I am an idiot</h2>
+		<h2 class="delayed">I am an idiot</h2>
 		<ul>
 			<li class="delayed">As less logic as possible</li>
 		</ul>
 	</section>
 
 	<section class="slide">
-		<h2>One ring to rule them all</h2>
+		<h2 class="delayed">One ring to rule them all</h2>
 		<ul>
 			<li class="delayed">Test one thing only once</li>
 		</ul>
@@ -152,67 +154,149 @@
 	</header>
 
 	<section class="slide">
-		<h2>Do</h2>
+		<h2>Unit Tests</h2>
+		<pre class="delayed"> TODO: what is the purpose of this method? Please comment it
+in src/Itembase/CoreBundle/Controller/IndexController.php on line number 88.</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Test Doubles</h2>
 		<ul>
-			<li class="delayed">Test cases</li>
-			<li class="delayed">Assertions</li>
+			<li class="delayed">Mock</li>
+			<li class="delayed">Stub</li>
+			<li class="delayed">Fake</li>
+			<li class="delayed">Dummy
+				<span class="attribution">
+					<a href="http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054">The Book</a>
+				</span>
+			</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Do Not</h2>
+		<ul>
+			<li class="delayed">Hard coded dependencies</li>
+			<li class="delayed">Private, protected methods</li>
+		</ul>
+	</section>
+
+</section>
+
+<section>
+
+	<header class="slide">
+		<h1>Integration Tests</h1>
+	</header>
+
+	<section class="slide">
+		<h2>Integration Tests</h2>
+		<pre class="delayed">// TODO : Decrease the amount of dependencies 
+in src/Itembase/CampaignBundle/Service/Campaign.php on line number 34.</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Fixture</h2>
+		<ul>
+			<li class="delayed">What</li>
+			<li class="delayed">How</li>
 		</ul>
 	</section>
 
 </section>	
 
+<section>
 
-
-// BDNF HERE
+	<header class="slide">
+		<h1>more ...</h1>
+	</header>
 
 	<section class="slide">
-		<h2>Fancy words list</h2>
+		<h2>Functional Tests</h2>
+		<pre class="delayed">// TODO: improve commenting 
+in src/Itembase/CoreBundle/Controller/FollowBrandController.php on line number 65.</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Client Side Tests</h2>
 		<ul>
-			<li class="delayed">White-box, black-box, gray-box</li>
-			<li class="delayed">Unit, integration</li>
-			<li class="delayed">Smoke, regression</li>
-			<li class="delayed">Visual testing</li>
-			<li class="delayed">Code coverage</li>
-			<li class="delayed">Continuous integration (ci)</li>
+			<li class="delayed">JS Unit</li>
 		</ul>
+		<pre class="delayed">// TODO: See why uploads don't work this way... :'(
+in src/Itembase/CoreBundle/Resources/views/Collection_B/productinfopanel.html.twig on line number 210.</pre>
 	</section>
 
 	<section class="slide">
-		<h2>Even more ...</h2>
+		<h2>Visual Tests</h2>
 		<ul>
-			<li class="delayed">Test double, stub, mock, fake, dummy
-				<span class="attribution">
-					<a href="http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054">The Book</a>
-				</span>
-			</li>
-			<li class="delayed">State, behavior verification</li>
-			<li class="delayed">Fault injection</li>
-			<li class="delayed">Fixtures</li>
-			<li class="delayed">Assertion</li>
+			<li class="delayed">Selenium</li>
 		</ul>
+		<pre class="delayed">// TODO where to save the payload now?
+in src/Itembase/ProductSourceBundle/Command/RebuyImportCommand.php on line number 229.</pre>
 	</section>
-
-code example platforms : silex & symfony & js & selenium
-unit & integration
-levels
-our stuff
-<!-- what to avoid for unit testing -->
-	<!-- other types of tests, dunctional load&stress test -->
-	<!-- TOOLS and Libraries -->
-	<!-- What we can implement -->
 
 	<section class="slide">
-		<h2>Components</h2>
-		<p>Slide content</p>
+		<h2>Continuous Integration</h2>
 	</section>
-	
 
+</section>	
+
+<section>
+
+	<header class="slide">
+		<h1>B2C structure</h1>
+	</header>
+
+	<section class="slide">
+		<h2>Layers</h2>
+		<div>
+			<p class="horizontal block">DB</p>
+			<p class="horizontal block delayed">orm</p>
+			<p class="horizontal block delayed">model</p>
+			<p class="horizontal block delayed">service</p>
+			<p class="horizontal block delayed">controller</p>
+			<p class="horizontal block delayed">client side logic</p>
+			<p class="horizontal delayed"></p>
+			<p class="horizontal block">Browser</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Layers</h2>
+		<div>
+			<p class="horizontal block">DB</p>
+			<p class="horizontal block">orm</p>
+			<p class="horizontal block">model</p>
+			<p class="horizontal block">service</p>
+			<p class="horizontal block">controller</p>
+			<p class="horizontal block">client side logic</p>
+			<p class="horizontal"></p>
+			<p class="horizontal block">Browser</p>
+		</div>
+
+		<div>
+			<p class="horizontal block"></p>
+			<p class="horizontal block delayed">X</p>
+			<p class="horizontal block delayed">unit & integration</p>
+			<p class="horizontal block delayed">unit & integration</p>
+			<p class="horizontal block delayed">functional</p>
+			<p class="horizontal block delayed">js unit</p>
+			<p class="horizontal"></p>
+			<p class="horizontal block delayed">selenium</p>
+			<p class="horizontal delayed"></p>
+		</div>
+
+
+	</section>
+
+</section>	
+
+<!-- code example platforms : silex & symfony & js & selenium -->
 
 
 
 <footer class="slide">
-	<h2>Thank you!</h2>
-	<p>Closing remarks</p>
+	<h2>Danke !</h2>
 </footer>
 
 <script src="slideshow.js"></script>

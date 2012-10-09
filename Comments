@@ -13,6 +13,14 @@ Static Testing
 		inspection : sf2
 		walkthrough : youtube api videos /geoff stearns 
 
+
+jsunit : library asid from html
+		 tools, phantom etc, load on same page
+selenium : expensive (hard to setup,)
+
+
+
+
 Fancy words list
 
 	smoke : origin from electrical engineering, is smoke coming from cpu?

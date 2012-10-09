@@ -2,7 +2,14 @@
 	font-size: 375%;
 }
 
-ul.blockList li{
+ul.blockList li, .horizontal{
 	display: inline-block;
 	vertical-align: top;
+}
+
+.horizontal.block{
+	width: 13%;
+	min-height:200px;
+	vertical-align: middle;
+	text-align: center;
 }
