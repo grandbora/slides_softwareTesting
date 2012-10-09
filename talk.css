@@ -1,3 +1,8 @@
 .slide {
 	font-size: 375%;
 }
+
+ul.blockList li{
+	display: inline-block;
+	vertical-align: top;
+}
