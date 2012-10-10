@@ -1,5 +1,13 @@
 
 
+TODO
+
+symfony 
+jsunit
+selenium
+
+<!-- code example platforms : silex & symfony & js & selenium & js unit-->
+
 group session therapy
 first boring stuff
 discussion would be more beneficial
@@ -42,3 +50,44 @@ Even more
 	show code examples for each of them
 
 	
+
+
+	WISH LIST 
+
+-> mocking test data in general	
+testing commands		
+what is unit testing		
+border between unit and integration testing		
+what to test in a unit test		
+how to test requests		
+frontend tests (frameworks)		
+code coverage		
+zombie, phantom etc.		
+Travis and other ci tools		
+		
+		
+		
+		
+-test, what why		
+-testable code		
+-types of tests		
+  -unit		
+  -integration		
+  -regression,whitebox,blackbox, every other kind of fancy names :)	smoke tests	
+  -frontend tests		
+-implementation 		
+  -PHPUnit		
+  -mocking, resolving dependenies		
+-running , setting up environment		
+  -autoloader		
+  -fixtures	Doctrine fixtures / bundle	
+		
+Saucelabs		
+https://docs.google.com/presentation/d/1XHAqM5swScoD885sujvn6PJ9walAti6y_bA_YWcdN98/edit?pli=1#slide=id.gad6b731_0_20		
+		
+testlevels		
+unit		
+integration		
+controller		
+http		
+browser		
