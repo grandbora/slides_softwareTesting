@@ -1,25 +1,44 @@
-
-
 TODO
-
-symfony 
 jsunit
 selenium
-
+take tests from our repo
 <!-- code example platforms : silex & symfony & js & selenium & js unit-->
 
-group session therapy
+
+
+
 first boring stuff
 discussion would be more beneficial
 shoot questions
+talk about exp. idea
 
 methods:
 	the boxes wont be used much in practice
+	Static&dynamic : focus automated dynamic&visual
+
 
 Static Testing
 		codereview : f4h
 		inspection : sf2
-		walkthrough : youtube api videos /geoff stearns 
+		walkthrough :
+	useful as much as automated
+
+noteworthy
+	smoke : crucial & prevent further tests
+
+Facts:
+	assertion &code coverage show code
+
+I am an idiot : 
+	explain first
+
+Famous duo:
+	unit test : let us refactor
+
+Test doubles:
+	mock : used in unit & behavior verification
+
+
 
 
 jsunit : library asid from html
@@ -91,3 +110,7 @@ integration
 controller		
 http		
 browser		
+
+
+
+group session therapy
