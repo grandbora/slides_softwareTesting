@@ -6,7 +6,7 @@ take tests from our repo
 
 
 
-
+beginner level
 first boring stuff
 discussion would be more beneficial
 shoot questions
@@ -14,7 +14,9 @@ talk about exp. idea
 
 methods:
 	the boxes wont be used much in practice
-	Static&dynamic : focus automated dynamic&visual
+	visual : clear, easy to repeat
+	Static&dynamic : compiled&not compiled
+	The focus : automated
 
 
 Static Testing
@@ -25,12 +27,20 @@ Static Testing
 
 noteworthy
 	smoke : crucial & prevent further tests
+			db acces & read - write
+			app server 
+			static files
+			3rd party
 
 Facts:
-	assertion &code coverage show code
+	assertions : http://www.phpunit.de/manual/3.4/en/appendixes.assertions.html
+	&code coverage 
+		show code
+		see dead lines
 
 I am an idiot : 
 	explain first
+	straight forward, readable
 
 Famous duo:
 	unit test : let us refactor
