@@ -5,7 +5,6 @@ take tests from our repo
 <!-- code example platforms : silex & symfony & js & selenium & js unit-->
 
 
-
 beginner level
 first boring stuff
 discussion would be more beneficial
@@ -53,37 +52,15 @@ Test doubles:
 Integration Tests:
 	Fixture os tool
 
-
-
-
-jsunit : library asid from html
+jsunit : library aside from html
 		 tools, phantom etc, load on same page
+		 phantomjs zombiejs qunit
+
 selenium : expensive (hard to setup,)
 
-
-
-
-Fancy words list
-
-	smoke : origin from electrical engineering, is smoke coming from cpu?
-			smoke test fails are critical, easy to fix
-			if smoke test fails no need to test further
-
-	code coverage : gmob experience with removing
-
-	ci : after every commit
+ci : after every commit
 		 regularly
 
-
-	show code examples for each of them
-
-Even more
-
-	fixture : the data necessary to run the test
-
-	show code examples for each of them
-
-	
 
 
 	WISH LIST 
@@ -98,23 +75,7 @@ frontend tests (frameworks)
 code coverage		
 zombie, phantom etc.		
 Travis and other ci tools		
-		
-		
-		
-		
--test, what why		
--testable code		
--types of tests		
-  -unit		
-  -integration		
-  -regression,whitebox,blackbox, every other kind of fancy names :)	smoke tests	
-  -frontend tests		
--implementation 		
-  -PHPUnit		
-  -mocking, resolving dependenies		
--running , setting up environment		
-  -autoloader		
-  -fixtures	Doctrine fixtures / bundle	
+
 		
 Saucelabs		
 https://docs.google.com/presentation/d/1XHAqM5swScoD885sujvn6PJ9walAti6y_bA_YWcdN98/edit?pli=1#slide=id.gad6b731_0_20		
@@ -125,7 +86,5 @@ integration
 controller		
 http		
 browser		
-
-
 
 group session therapy
