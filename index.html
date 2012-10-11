@@ -164,7 +164,7 @@ in src/Itembase/CoreBundle/Controller/IndexController.php on line number 88.</pr
 			<li class="delayed">Mock</li>
 			<li class="delayed">Stub
 				<span class="attribution">
-					<a href="http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054">The Book</a>
+					<a href="examples/mock_stub.html">Example</a>
 				</span>
 			</li>
 			<li class="delayed">Fake</li>
@@ -179,9 +179,15 @@ in src/Itembase/CoreBundle/Controller/IndexController.php on line number 88.</pr
 	<section class="slide">
 		<h2>Do Not</h2>
 		<ul>
-			<li class="delayed">Hard coded dependencies</li>
+			<li class="delayed">Hard coded dependencies
+				<span class="attribution">
+					<a href="http://sebastian-bergmann.de/archives/885-Stubbing-Hard-Coded-Dependencies.html">Hard coded deps</a>
+				</span>
+			</li>
 			<pre class="delayed"> // todo: fix this
-in src/Itembase/CoreBundle/Controller/UserController.php on line number 143.</pre>
+in src/Itembase/CoreBundle/Controller/UserController.php on line number 143.
+https://itembase.codebasehq.com/projects/itembaseb2c/repositories/itembase/blob/development/src/Itembase/CoreBundle/Services/UserService.php#L424
+</pre>
 			<li class="delayed">Private, protected methods</li>
 		</ul>
 	</section>

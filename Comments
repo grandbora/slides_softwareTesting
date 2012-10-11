@@ -37,6 +37,8 @@ Famous duo:
 
 Test doubles:
 	mock : used in unit & behavior verification
+	stub :
+	Significant difference BV & SV
 
 
 
